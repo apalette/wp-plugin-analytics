@@ -9,4 +9,8 @@ if (! function_exists('add_action')) {
 require_once WP_PLUGIN_ANALYICS_CORE.'controllers/WpPluginAnalyticsAdmin.php';
 WpPluginAnalyticsAdmin::start();
 
+// Front
+require_once WP_PLUGIN_ANALYICS_CORE.'controllers/WpPluginAnalyticsFront.php';
+WpPluginAnalyticsFront::start();
+
 ?>
